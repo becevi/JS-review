@@ -3,7 +3,7 @@ let raceNumber = Math.floor(Math.random() * 1000);
 
 // sets variables with boolean values stating if the registered early or late
 let runnerEarlyAdult = true;
-let runnerLateAdult = false;
+
 
 // sets variable with the runner's age
 let runnerAge = 18;
