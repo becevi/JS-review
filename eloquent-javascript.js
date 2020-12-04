@@ -11,7 +11,7 @@ for(let counter = 1; counter <= 100; counter++) {
         console.log('Buzz');
     } else if (counter % 3 === 0) {
         console.log("Fizz");
-    } else if {
+    } else {
         console.log(counter);
     }
 }
