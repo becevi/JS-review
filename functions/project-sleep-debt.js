@@ -1,4 +1,6 @@
+// function getSleepHours with day as parameter is defined
 function getSleepHours(day) {
+  // switch statement with day as value
   switch(day) {
     case 'monday':
       return 8;
@@ -28,7 +30,7 @@ function getSleepHours(day) {
 }
 
 //console.log(getSleepHours('sunday'));
-
+// function gets all hours from the week, them sums em and returns the total
 function getActualSleepHours() {
   a = getSleepHours('monday');
   b = getSleepHours('tuesday');
