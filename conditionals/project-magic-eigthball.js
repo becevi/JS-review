@@ -16,7 +16,8 @@ let randomNumber = Math.floor(Math.random() * 8);
 //declared an empty string
 let eightball = '';
 
-// implemented swith flow for 8 different random answers
+// implemented switch flow for 8 different random answers; switch is a control flow; switch keyword, then the variable, then each cases, each one has
+// must finish with break keyword otherwise it continues, it must end a default statement, this one must include a break statement too.
 switch (randomNumber) {
   case (0):
     eightball = 'It is certain';
