@@ -70,5 +70,5 @@ function playGame() {
 }
 
 // playGame function is called
-playGame();
+playGame(); 
 
