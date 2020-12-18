@@ -8,7 +8,7 @@ let unnecessaryWords = ['extremely', 'literally', 'actually' ];
 const storyWords = story.split(' ');
 
 
-
+//
 const betterWords = storyWords.filter(word => !unnecessaryWords.includes(word));
 
 let counterA = 0;
