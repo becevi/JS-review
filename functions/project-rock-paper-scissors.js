@@ -1,5 +1,5 @@
 //  declared variable has a function value; then we defined an arrow 
-// function with one parameter, as it is just one parameter no
+// function expression with one parameter, as it is just one parameter no
 // parenthesis is needed,  then there's an if statement with or operators
 // then userInput is returned
 
@@ -15,8 +15,9 @@ const getUserChoice = userInput => {
 //console.log(getUserChoice('scissors'));
 
 
-// variable is declared with a function as a value, arrow function
-// with no parameter is defined, 
+// variable is declared with a function as a value, or arrow function expression,
+// arrow function
+// with no parameter is defined, it just needs an empty parenthesis
 const getComputerChoice = () => {
   let randomNumber = Math.floor(Math.random() * 3);
   switch (randomNumber) {
@@ -31,6 +32,7 @@ const getComputerChoice = () => {
 
 //console.log(getComputerChoice());
 
+// arrow function expression can be a let or const variable
 const determineWinner = (userChoice, computerChoice) => {
   if (computerChoice === userChoice) {
     return 'Game was a tie.';
@@ -62,6 +64,9 @@ const determineWinner = (userChoice, computerChoice) => {
 
 //console.log(determineWinner('paper', 'rock'));
 
+// Here is a function declaration, it needs the keyword function,
+// the name of the function, followed by paranthesis
+// within the parenthesis we put parameters in case there are
 function playGame() {
   let userChoice = getUserChoice('scissors');
   let computerChoice = getComputerChoice();
