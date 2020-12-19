@@ -20,8 +20,15 @@ secretMessage.shift();
 // unshift is an Array method, add element at the beginning of the array
 secretMessage.unshift('Programming');
 
-
+// splice is an Array method, the first parameter is the index, the second
+// is remove count parameter which is the number of elements to be remove,
+// after that is the new item or items to be inserted from on index
 secretMessage.splice(6, 5, 'know');
+
+// now we log out secretMessage variable
 console.log(secretMessage);
 
+// join is an Array method, it returns a new string by concatenating all
+// the elements in an array, the parameter is optional and sets which caracter
+// is the one joining the elements of the array
 console.log(secretMessage.join(' '));
