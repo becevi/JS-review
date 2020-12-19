@@ -1,3 +1,10 @@
+//The comments below were part of the exercise so variables were moved 
+// to make the loose or tight according to the needs.
+// Ideally, it is good practice to have as few as global varaibles as possible
+// and most of them as local variables to make code reusabel and
+// prevent bugs or scope pollution.
+
+
 // The scope of `random` is too loose 
 const random = Math.floor(Math.random() * 3);
 
