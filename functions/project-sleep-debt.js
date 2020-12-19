@@ -1,6 +1,8 @@
 // function getSleepHours with day as parameter is defined
 function getSleepHours(day) {
   // switch statement with day as value
+  // day is the condition to be compara to each case
+  // each case most finish with a break
   switch(day) {
     case 'monday':
       return 8;
