@@ -15,6 +15,7 @@ let counterA = 0;
 let counterB = 0;
 let counterC = 0;
 
+//
 for (word of storyWords) {
   if (word === 'really') {
     counterA += 1;
