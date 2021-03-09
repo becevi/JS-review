@@ -102,3 +102,113 @@ const myTest = new Test("Math");
 //
 
 // TODO --->
+class Employee {
+  constructor(name, hourlyWage) {
+    this.name = name;
+    this.hourlyWage = hourlyWage;
+    this.hoursWorked = 0;
+  }
+
+  logHours(increment) {
+    return (this.hoursWorked += increment);
+  }
+
+  generatePaycheck() {
+    console.log(this.hoursWorked * this.hourlyWage);
+    this.hoursWorked = 0;
+  }
+}
+//
+
+// TODO ---> Create a static method within the Dog class named bark that takes no parameters, and prints out 'Woof!' to the console.
+
+class Dog {
+  constructor(name) {
+    this.name = name;
+  }
+
+  call() {
+    console.log(this.name + "!");
+  }
+
+  static bark() {
+    console.log("Woof!");
+  }
+}
+//
+
+// TODO ---> Below the constructor, add a function named advanceGrade that increments the _grade property by one.
+
+class Student {
+  constructor(name, grade) {
+    this.name = name;
+    this.grade = grade;
+  }
+  advanceGrade() {
+    this.grade++;
+  }
+}
+//
+
+class House {
+  constructor(numRooms, numWindows, location) {
+    this.numRooms = numRooms;
+    this.numWindows = numWindows;
+    this.location = location;
+  }
+
+  fixSink() {
+    console.log("Try pouring drano drown the drain.");
+  }
+}
+
+const myHouse = new House(3, 15, "USA");
+//
+
+class Book {
+  constructor(title, author, year) {
+    this.title = title;
+    this.author = author;
+    this.year = year;
+  }
+
+  get title() {
+    return this.title;
+  }
+
+  set title(newTitle) {
+    this.title = newTitle;
+  }
+}
+
+// TODO ---> What does the keyword this refer to in the constructor method of this code?
+
+class Company {
+  constructor(numEmployees, product, benefits) {
+    this.numEmployees = numEmployees;
+    this.product = prodcut;
+    this.benefits = benefits;
+  }
+}
+
+// A: The newly created instance of the Company class.
+
+//
+
+class FruitBowl {
+  constructor() {
+    this.material = "Wood";
+  }
+  
+  static numFruits(bowl) {
+    return bowl.length;
+  }
+
+  const myFruitBowl = new FruitBowl();
+  const myBowl = ["apple", "orange", "banana"];
+
+  console.log(FruitBowl.numFruits(myBowl));
+}
+
+//
+
