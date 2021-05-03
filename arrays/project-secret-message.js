@@ -25,6 +25,10 @@ secretMessage.unshift('Programming');
 // after that is the new item or items to be inserted from on index
 secretMessage.splice(6, 5, 'know');
 
+
+git config --global user.name "becevi"
+git config --global user.email benjaminceavidal@gmail.com
+
 // now we log out secretMessage variablesss
 console.log(secretMessage);
 
