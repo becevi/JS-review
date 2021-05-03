@@ -25,7 +25,7 @@ secretMessage.unshift('Programming');
 // after that is the new item or items to be inserted from on index
 secretMessage.splice(6, 5, 'know');
 
-// now we log out secretMessage variables
+// now we log out secretMessage variablesss
 console.log(secretMessage);
 
 // join is an Array method, it returns a new string by concatenating all
