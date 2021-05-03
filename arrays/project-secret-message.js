@@ -14,7 +14,7 @@ secretMessage.push('to', 'Program');
 // through bracket notation assigning new value (or changing value) in index n element
 secretMessage[7] = 'right';
  
-// shift is an Array method, removes first element
+// shift is an Array method, removes first elements
 secretMessage.shift();
 
 // unshift is an Array method, add element at the beginning of the array
